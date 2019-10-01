@@ -1,0 +1,9 @@
+.avatar{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.avatar:hover{
+-webkit-filter: brightness(0.5);
+filter: brightness(0.5);
+}

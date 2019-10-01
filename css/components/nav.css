@@ -1,0 +1,31 @@
+.nav{
+  line-height: 36px;
+  padding: 0px;
+}
+
+.nav h3{
+  font-size: 16px;
+  float: right;
+  margin: 0px;
+  color: white;
+  display: inline;
+  padding: 8px 24px;
+}
+
+.nav h3:hover{
+color: #2EC4B6;
+
+}
+.header::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #2EC4B6;
+    transition: width .3s;
+}
+
+.header:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}

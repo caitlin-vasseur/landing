@@ -1,0 +1,34 @@
+.testimonial{
+   max-width: 1000px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.testimonials h1{
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.testimonial img{
+  margin-right: 15px;
+    float: left;
+}
+
+.testimonial h3{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: block;
+  color: #2EC4B6;
+
+}
+
+.testimonial h3,
+.testimonial p{
+  margin-left: 15px;
+  display: block;
+  text-align: justify;
+  font-style: italic;
+}
